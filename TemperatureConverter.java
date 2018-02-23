@@ -31,10 +31,13 @@ public class TemperatureConverter {
         // Read the user input.
         double userTemperatureInFahrenheit = sc.nextInt();
         
-        // Convert Fahrenheit to Celsius
+        // Convert Fahrenheit to Celsius.
         double celsius = (5.0 / 9) * (userTemperatureInFahrenheit - 32);
+        
+        // Print results to the console.
         System.out.println(userTemperatureInFahrenheit + " degrees Fahrenheit "
-                + "is " + celsius + " degrees in Celsius");
+                + "is " + celsius + " degrees in Celsius.");
+        
         
        
         
@@ -48,8 +51,12 @@ public class TemperatureConverter {
         
         // Convert Fahrenheit to Celsius
         double fahrenheit = (9.0 / 5) * userTemperatureInCelsius + 32;
+        
+        // Print results to the console.
         System.out.println(userTemperatureInCelsius + " degrees Celsius is " +
-        fahrenheit + " degrees in Fahrenheit");
+        fahrenheit + " degrees in Fahrenheit.");
+        
+        
         
         
         // Close the scanner
